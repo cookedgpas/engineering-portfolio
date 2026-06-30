@@ -1,6 +1,10 @@
-# Engineering Portfolio: Embedded Systems & Circuit Design
+# Mohammad Adyan | Electrical Engineering & Embedded Systems
 
-Welcome to my engineering portfolio. This repository documents my hands-on journey through theoretical semiconductor diode physics concepts, hardware prototyping as well as circuit analysis and firmware development using my Elegoo Uno R3.
+> "Hardware is the canvas of physics; firmware is the brush that brings it to life. True engineering lies in bridging the gap between ideal mathematical models and the realities of physical components."
+
+# Engineering Portfolio: From Semiconductor Physics to Intentional and Impactful Circuit Design
+
+Welcome to my engineering logbook. This repository documents my hands-on journey through theoretical semiconductor diode physics concepts, hardware prototyping as well as circuit analysis and firmware development using my Elegoo Uno R3.
 
 ## Navigation
 * [Project 1: Introduction to Arduino, Semiconductor Physics Principles and Single LED Circuit Analysis](./Project-01-Single-LED/README.md)
