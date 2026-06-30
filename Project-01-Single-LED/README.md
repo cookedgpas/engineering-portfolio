@@ -3,7 +3,7 @@
 ### 1. Hardware Prototyping & Visual Layout
 Below is the verified, physically deployed hardware layout for the single-channel solid-state circuit.
 
-*(Note: Upload your single LED circuit photo into this folder next, and embed it right here!)*
+[Single LED Physical Hardware Setup](./ledMain1.jfif)
 
 ---
 
