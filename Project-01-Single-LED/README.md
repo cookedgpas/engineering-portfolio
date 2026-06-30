@@ -31,6 +31,10 @@ To safely run a standard red LED from a 5V digital I/O pin, Ohm's Law ($V = IR$)
 * **Theoretical Target Resistance:**
   $$R = \frac{3\text{V}}{0.01\text{A}} = 300\Omega \quad \text{or} \quad R = \frac{3\text{V}}{0.02\text{A}} = 150\Omega$$
 
+Below is the verified loop schematic drawn during the initial circuit analysis phase:
+
+<img src="./blinkycircuitdiagram.png" width="450" alt="Hand-drawn Circuit Schematic Diagram" />
+
 * **Physical Implementation:**
   Using a standard, readily available $330\Omega$ manufacturer resistor from the kit, the exact loop current was derived:
   $$I = \frac{3\text{V}}{330\Omega} \approx 0.009\text{A} \quad (9\text{mA})$$
