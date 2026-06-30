@@ -16,9 +16,9 @@ Below is the physically constructed 3-channel parallel circuit. Each LED is give
 ---
 
 ### 3. Core Physics: Why Each LED Needs Its Own Resistor
-I intentionally avoided using a single shared resistor for all the LEDs due to two main reasons:
-1) Multiple parallel branches ensure that each LED can independently be programmed to blink as required, something a series connection would not allow since a series connection enforces a single shared current path.
-2) If these parallel branches shared a single resistor instead of having their own, the LED with the lowest forward voltage drop (Red) would clamp the voltage down, stealing the current and causing the other colors to remain completely dim or unlit.
+I intentionally avoided both using a single shared resistor for all the LEDs as well as a single series connection of each LED (my intial conclusion) due to two main reasons:
+1) Multiple parallel branches ensure that each LED can independently be programmed to blink as required, something a series connection would not allow since a series connection ]is based on a single shared current path.
+2) If each LED shared a single resistor in a single series branch instead of having their own, the LED with the lowest forward voltage drop (Red) would clamp the voltage down, stealing the current and causing the other colors to remain completely dim or unlit.
 
 ---
 
