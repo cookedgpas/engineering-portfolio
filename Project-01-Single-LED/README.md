@@ -46,5 +46,5 @@ Below is the verified loop schematic drawn during the initial circuit analysis p
 3. Wire the circuit exactly as shown in the layout image.
 4. Select your board type, port, and hit **Upload**.
 
-**Additional Notes**
+**Additional Notes:**
 When using these principles for multiple colored LEDs, I noticed that the blue LED was significantly brighter than the red one with the same resistor setup, looking into it, different colored LEDs use different semiconductor materials (like Gallium Nitride for blue vs. Gallium Arsenide for red), meaning they have different energy gaps and forward voltage drops.
