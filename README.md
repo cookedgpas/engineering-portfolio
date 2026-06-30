@@ -15,5 +15,5 @@ Welcome to my engineering logbook. This repository documents my hands-on journey
 ---
 
 ### AI Usage & Academic Integrity Disclaimer
-* **Tool Utilization:** Generative AI was used strictly as an assistant which guided me through the mechanics of GitHub, how I shoudld format the layout, understanding markdown syntax and repository structure.
+* **Tool Utilization:** Generative AI was used strictly as an assistant which guided me through the mechanics of GitHub, how I should format the layout, understanding markdown syntax and repository structure.
 * **Originality of Work:** All procedures, circuit prototyping, mathematical calculations, engineering, theoretical notes and text analysis were entirely conceived, executed, and written by me. AI was not utilized to bypass learning or generate core academic content. I possess a deep understanding of every fundamental concept utilised to develop these prototypes.
