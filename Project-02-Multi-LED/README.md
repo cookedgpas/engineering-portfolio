@@ -32,3 +32,9 @@ I intentionally avoided both using a single shared resistor for all the LEDs as 
 To ensure that the sequence (5, 10, 15 blinks) runs exactly once when the Arduino boots up and doesn't loop endlessly, the entire brute-force blinking routine was written directly inside the `setup()` block. Because `setup()` only fires once per power cycle, the program finishes the full count and then idles cleanly until the physical reset button is tapped.
 
 As I remain a beginner to Arduino coding, I have manually programmed each blink cycle in a "brute-force" method to better appreciate loop logics in the language once i understand it sufficiently enough to utilise it here, I aim to enhance this code eventually to integrate these newly obtained skills and shorten the code eventually.
+
+### How to Run
+1. Clone this repository or copy the `.ino` file code.
+2. Open the code in the official Arduino IDE.
+3. Wire the circuit exactly as shown in the layout image.
+4. Select your board type, port, and hit **Upload**.
