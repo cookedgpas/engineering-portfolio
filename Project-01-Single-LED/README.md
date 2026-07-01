@@ -16,7 +16,7 @@ Because the LED has no built-in way to slow down or regulate how much current it
 ---
 
 ### 3. Introduction to Breadboard Mechanics & Electrical Routing
-Based on physical structural verification of the prototyping substrate:
+Based on the physical structure and the distribution of pins underneath the breadboard connecting various components and routing the flow of current:
 * **The Distribution Rails:** The outer vertical column marked with a red line ($+$) and a blue/black line ($-$) acts as a continuous conducting strip extending down the entire length of the board. These are designed for both power injection and grounding multiple loops.
 * **The Terminal Blocks (Component Grid):** The central rows (columns A-E and F-J) are wired in isolated horizontal groups of 5. These blocks run *perpendicular* to the power rails. This structural design ensures that inserting a component across two separate rows establishes distinct electrical nodes, allowing us to control the current path precisely between the microcontroller and ground.
 
