@@ -1,0 +1,22 @@
+# Arduino IDE build artifacts
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Serial monitor logs
+*.log
+
+# Temp files
+*.tmp
