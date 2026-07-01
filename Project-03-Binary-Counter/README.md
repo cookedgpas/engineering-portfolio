@@ -39,10 +39,10 @@ Below is the physically deployed 4-channel parallel circuit executing the binary
 
 ---
 
-### 4. Firmware Optimization Details
+### 4. Firmware Optimization Details:
 The logic relies on precise state transitions executed sequentially inside the main `loop()` block. Each step represents an instantaneous change of state across all 4 output parameters, holding the display for exactly 1000 milliseconds before transitioning to the subsequent logical step.
----
 
+---
 ### How to Run
 1. Clone this repository or copy the `.ino` file code.
 2. Open the code in the official Arduino IDE.
