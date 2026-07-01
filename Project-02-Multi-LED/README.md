@@ -24,14 +24,15 @@ I intentionally avoided both using a single shared resistor for all the LEDs as 
 
 ### 4. Circuit Mapping & Ground Plane
 * **Common Ground Bus:** The cathodes (short legs) of all 3 LEDs plug directly into the continuous negative power rail on the side of the breadboard. A single jumper wire routes this entire rail back to the Arduino’s $\text{GND}$ pin to complete the loops.
-* **Independent Control & Resistors:** The required $330\Omega$ resistors connect the anodes (long legs) of each LED separately to Pins 12, 11, and 10. This ensures that every individual color loop has its own dedicated resistance to prevent overheating while allowing completely independent pin signaling.
-
+* **Independent Control & Resistors:** The required $330\Omega$ resistors connect the cathodes (short legs) of each LED separately to this grounding power rail. This ensures that every individual color loop has its own dedicated resistance to prevent overheating while allowing completely independent pin signaling.
+On the other hand, the anodes (long legs) of each LED connect to the I/O pins 10, 11, 12 of the Uno R3 using 3 jumper wires, completing each individual loop and ensuring proper flow of current
 ---
 
 ### 5. Sequential Firmware Logic
 To ensure that the sequence (5, 10, 15 blinks) runs exactly once when the Arduino boots up and doesn't loop endlessly, the entire brute-force blinking routine was written directly inside the `setup()` block. Because `setup()` only fires once per power cycle, the program finishes the full count and then idles cleanly until the physical reset button is tapped.
 
-As I remain a beginner to Arduino coding, I have manually programmed each blink cycle in a "brute-force" method to better appreciate loop logics in the language once i understand it sufficiently enough to utilise it here, I aim to enhance this code eventually to integrate these newly obtained skills and shorten the code eventually.
+**Additional Notes:** 
+As I remain a beginner to Arduino coding, I have manually programmed each blink cycle in a "brute-force" method to better appreciate loop logics in the language, once i understand it sufficiently enough to utilise it here, I aim to enhance this code eventually to integrate these newly obtained skills and shorten the code eventually.
 
 ### How to Run
 1. Clone this repository or copy the `.ino` file code.
