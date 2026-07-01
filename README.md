@@ -9,6 +9,7 @@ Welcome to my engineering logbook. This repository documents my hands-on journey
 ## Navigation
 * [Project 1: Introduction to Arduino, Semiconductor Physics Principles and Single LED Circuit Analysis](./Project-01-Single-LED/README.md)
 * [Project 2: Expanded In-Depth Multi-LED Parallel Architecture Project](./Project-02-Multi-LED/README.md)
+* [Project 3: 4-Bit Binary Counter using LEDs](./Project-03-Binary-Counter/README.md)
 
 
 
